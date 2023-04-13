@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+body {
+    background-color: #070f27;
+}
+
+header {
+    height: 2rem;
+    display: flex;
+}
+
+header p {
+    position: absolute;
+    color: #EAFC8F;
+    left: 5%;
+    font-family: 'Hubballi', cursive;
+    font-size: x-large;
+}
+
+header nav {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: right;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header nav ul li {
+    font-family: 'Kanit', sans-serif;
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li:hover {
+    color: gray;
+}       
